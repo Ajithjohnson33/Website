@@ -1,7 +1,6 @@
+
 import React from "react";
 import { Box, Link, Flex } from "@chakra-ui/react";
-
-
 import { useNavigate } from 'react-router-dom';
 
 function Navbar() {
@@ -26,20 +25,29 @@ function Navbar() {
       >
         Edpide
       </Link>
-      <Link href="#" textDecoration="none" color="white">
+
+      {/* <Link href="#" textDecoration="none" color="white">
         Featues
-      </Link>
-      <Link href="#" textDecoration="none" color="white">
+      </Link> */}
+
+      <Link href="/templates" textDecoration="none" color="white">
         Templates
       </Link>
-      <Link href="#" textDecoration="none" color="white">
+
+      <Link href="/packages" textDecoration="none" color="white">
         Packages
       </Link>
-      <Link href="#" textDecoration="none" color="white">
+
+
+      <Link href="/register" textDecoration="none" color="white">
         Register
       </Link>
 
-      <button>Login </button>
+      
+
+      <Link href="/login" textDecoration="none" color="white">
+        Login
+      </Link>
 
 
     </Flex>

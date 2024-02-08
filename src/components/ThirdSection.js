@@ -1,7 +1,6 @@
+
 import React from "react";
 import imageSrc from './third.JPG';
-
-
 
 
 function ThirdSection() {
